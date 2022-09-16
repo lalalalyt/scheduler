@@ -51,7 +51,7 @@ const useApplicationData = () => {
     const days = [...state.days];
     days[select.id - 1] = { ...select, spots };
     return axios
-      .put(`http://localhost:8001/api/appointments/${id}`, appointment)
+      .put(`/api/appointments/${id}`, appointment)
       .then(() => {
         setState({ ...state, appointments, days });
       });
@@ -76,7 +76,7 @@ const useApplicationData = () => {
 
 
     return axios
-      .delete(`http://localhost:8001/api/appointments/${id}`)
+      .delete(`/api/appointments/${id}`)
       .then(() => setState({ ...state, appointments,days }));
   }
 

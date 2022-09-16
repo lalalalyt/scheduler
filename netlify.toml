@@ -11,6 +11,6 @@
   # Default build command.
   command = "npm run build"
 
-[context.production.environment]
+[build.environment]
   REACT_APP_API_BASE_URL = "https://scheduler-yl.herokuapp.com/"
   REACT_APP_WEBSOCKET_URL = "wss://scheduler-yl.herokuapp.com/"
