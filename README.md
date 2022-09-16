@@ -1,5 +1,16 @@
 # Interview Scheduler
+Interview Scheduler is a front-end web application built with react that allows job candidates to schedule interviews with our interviewers. 
 
+## Final Product
+
+
+## Dependencies
+ - axios
+ - classnames
+ - normalize.css
+ - react-hooks-testing-library
+ - react-scripts
+ - react-test-renderer
 ## Setup
 
 Install dependencies with `npm install`.
