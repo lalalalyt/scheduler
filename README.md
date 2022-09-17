@@ -1,12 +1,15 @@
 # Interview Scheduler
 Interview Scheduler is a front-end web application built with react that allows job candidates to schedule interviews with our interviewers. 
 
+## Deployed application
+https://production--stunning-sprite-9c35a1.netlify.app/
+
 ## Final Product
- - Users can see all the existing interviews and the available timeslots.
+ - Users can see all the existing interviews and the available time slots.
 
 !["Screenshot of homepage"](https://github.com/lalalalyt/scheduler/blob/master/screenshots/screenshot-page.png?raw=true)
 
- - Users can select the timeslot they prefer. After users entering their name and selecting the interviewer, we schedule the interview for them with selected interviewer at the selected time.
+ - Users can select the time slots they prefer. After users entering their name and selecting the interviewer, we schedule the interview for them with selected interviewer at the selected time.
 
 !["Screenshot of saving"](https://github.com/lalalalyt/scheduler/blob/master/screenshots/screenshot-save.png?raw=true)
 
